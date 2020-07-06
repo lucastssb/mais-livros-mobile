@@ -8,6 +8,3 @@ export const Container = styled.ScrollView`
 export const Footer = styled.View`
     height: 100px;
 `;
-export const StatusBar = styled.StatusBar `
-
-`

@@ -1,11 +1,13 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+export const Container = styled.ScrollView`
     flex: 1;
     padding: 20px;
 `;
 export const Header = styled.View `
     flex: 1;
+    height: 250px;
+    margin-top: 15px;
 `;
 export const TopBar = styled.View `
     flex: 1;

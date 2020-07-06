@@ -32,7 +32,7 @@ const Profile = () => {
                     <UserName>Lucas Barbosa</UserName>
                 </ProfilePicArea>
                 <UserStatus>
-                    <StatusText>wfwefjnwejfkjnwekjfnjwkenfjwekjfnkjewnfjkwenfjknewjfnjkewnfjenwfjk</StatusText>
+                    <StatusText>Hi, i'm Lucas a computer science student who loves tecnology and books.</StatusText>
                 </UserStatus>
             </ProfileInfo>
         </Header>

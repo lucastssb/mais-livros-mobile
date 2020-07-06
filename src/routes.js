@@ -10,8 +10,9 @@ const Stack = createStackNavigator();
 const MyStack = () => {
   return (
       <NavigationContainer>
-          <Stack.Navigator headerMode='none'>
-          <Stack.Screen name="Login" component={BottomTabBar} />
+          <Stack.Navigator headerMode='none' initialRouteName='SignIn'>
+          <Stack.Screen name="SignIn" component={SignIn} />
+          <Stack.Screen name="Home" component={BottomTabBar} />
           </Stack.Navigator>
       </NavigationContainer>
   );

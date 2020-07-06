@@ -1,11 +1,18 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { Container } from './styles';
 
-// import { Container } from './styles';
+import Books from '../../components/Books';
+import {Fav} from '../../data/data';
+
 
 const Favorites = () => {
     return(
-        <View><Text>Favoritos</Text></View>
+        <Container>
+            <Books
+                category=''
+                data={Fav}
+            />
+        </Container>
     );
 }
 

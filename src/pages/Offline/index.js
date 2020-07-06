@@ -1,11 +1,18 @@
 import React from 'react';
-import { View, Text } from 'react-native';
 
-// import { Container } from './styles';
+import { Container } from './styles';
+
+import Books from '../../components/Books';
+import {Off} from '../../data/data';
 
 const Offline = () => {
     return(
-        <View><Text>Offline</Text></View>
+        <Container>
+            <Books
+                category=''
+                data={Off}
+            />
+        </Container>
     );
 }
 

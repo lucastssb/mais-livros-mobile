@@ -28,7 +28,7 @@ import {
   TitleMicrosoft
 } from './styles';
 
-const Signin = () => {
+const Signin = ({navigation}) => {
   return(
     <Container>
         <StatusBar translucent={true} backgroundColor='transparent' barStyle='dark-content' />
@@ -39,7 +39,7 @@ const Signin = () => {
         <LoginEntry>
           <LoginInput  placeholder='Insira seu login'/>
           <SubmitButton>
-            <TextSubmitButton>Entrar</TextSubmitButton>
+            <TextSubmitButton onPress={() => navigation.navigate('Home') }>Entrar</TextSubmitButton>
           </SubmitButton>
           <LoginOptions>
             <ForgotPassword>Esqueci meu login</ForgotPassword>

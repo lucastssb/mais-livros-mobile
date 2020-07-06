@@ -7,7 +7,7 @@ export const Container = styled.View`
 export const Category = styled.Text `
     font-size: 20px;
     margin-left: 5px;
-    margin-bottom: 15px;
+    margin-vertical: 15px;
     font-weight: bold;
 `
 export const Book = styled.TouchableOpacity`
