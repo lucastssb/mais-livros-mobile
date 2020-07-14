@@ -13,12 +13,12 @@ export const Category = styled.Text `
 export const Book = styled.TouchableOpacity`
     elevation: 10;
     height: 200px;
-    width:130px;
+    width:140px;
     margin-horizontal: 5px;
-    border-radius: 5px;
+    border-radius: 4px;
 `
 export const Thumbnail = styled.Image`
     height: 100%;
     width:100%;
-    border-radius: 5px;
+    border-radius: 4px;
 `

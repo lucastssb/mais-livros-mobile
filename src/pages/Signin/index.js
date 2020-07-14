@@ -36,10 +36,10 @@ const Signin = ({navigation}) => {
           <Logo source={require('../../assets/+Livros.png')}></Logo>
           <HeaderImage source={require('../../assets/girl_img.jpg')}></HeaderImage>
         </Header>
-        <LoginEntry>
-          <LoginInput  placeholder='Insira seu login'/>
-          <SubmitButton>
-            <TextSubmitButton onPress={() => navigation.navigate('Home') }>Entrar</TextSubmitButton>
+        <LoginEntry behavior='padding' >
+          <LoginInput placeholder='Insira seu login'/>
+          <SubmitButton onPress={() => navigation.navigate('Home') }>
+            <TextSubmitButton>Entrar</TextSubmitButton>
           </SubmitButton>
           <LoginOptions>
             <ForgotPassword>Esqueci meu login</ForgotPassword>

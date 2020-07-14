@@ -23,7 +23,6 @@ import {
    CommentsTitle,
    TextPress,
    TextVideo,
-   BookTitleAndShare,
    BookTitle,
    Author,
    PublishingCompany,
@@ -32,7 +31,8 @@ import {
    Rating,
    TextRating,
    StatusBar,
-   BackButton
+   BackButton,
+   Header
 
 } from './styles';
 
@@ -61,16 +61,14 @@ const BookInfo = ({route, navigation }) => {
   const [playerWidth, setPlayerWidth] = useState(Dimensions.get('window').width);
 
   return(
-    <Container>
-    <BackButton><Icon name='arrowleft' size={30} color='white' onPress={() => navigation.goBack()}/><Icon name='sharealt' size={30} color='purple'/></BackButton>
-    <StatusBar translucent={true} backgroundColor='transparent' barStyle='light-content' />
+    <Container showsVerticalScrollIndicator={false}>
+    <StatusBar backgroundColor='#45D0C1' barStyle='light-content' />
+    <Header>
+      <BackButton><Icon name='arrowleft' size={30} color='white' onPress={() => navigation.goBack()}/><Icon name='sharealt' size={30} color='purple'/></BackButton>
       <BookDetails>
         <Cover source={{uri: thumbnail }}><Icon style={{marginLeft: 5, marginTop: 5}} name='heart' size={30} color='red' /></Cover>
         <Details>
-          <BookTitleAndShare>
-            <BookTitle>{title}</BookTitle>
-            
-          </BookTitleAndShare>
+          <BookTitle>{title}</BookTitle>
           <Author>Autor: {author} </Author>
           <PublishingCompany>Editora: {publishingCompany} </PublishingCompany>
           <Edition>Edição: {edition} </Edition>
@@ -80,6 +78,7 @@ const BookInfo = ({route, navigation }) => {
           </Rating>
         </Details>
       </BookDetails>
+    </Header>
       <IsAvailableOffline>
         <IsAvailable>Disponível offline:</IsAvailable>
         <Icon2 name='switch' size={35} color='black' />

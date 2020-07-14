@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View `
-    flex: auto;
+    flex: 1;
     background: #ffffff;
 `
 export const StatusBar = styled.StatusBar `
@@ -21,26 +21,24 @@ export const HeaderImage = styled.Image `
     resize-mode: contain;
     margin-vertical: 40px;
 `
-export const LoginEntry = styled.View `
+export const LoginEntry = styled.KeyboardAvoidingView `
     flex: 2;
     padding-horizontal: 16px;
 `
 export const LoginInput = styled.TextInput `
-    flex: 1;
+    height: 60px;
     border-width: 1px;
     border-color: #999999;
-    border-radius: 8px;
-    max-height: 30%;
+    border-radius: 4px;
     font-size: 20px;
     font-family: Ubuntu;
     padding-left: 14px;
 `
 export const SubmitButton = styled.TouchableOpacity `
-    flex: 1;
+    height: 60px;
     background: #068577;
     margin-vertical: 12px;
-    border-radius: 8px;
-    max-height: 30%;
+    border-radius: 4px;
     justify-content: center;
     align-items: center;
 `
@@ -59,20 +57,19 @@ export const ForgotPassword = styled.Text `
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    text-decoration-line: underline;
-    color: #9D38F7;
+    color: #068577;
 `
 export const FirstAccess = styled.Text `
     font-family: Lora;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    text-decoration-line: underline;
-    color: #9D38F7;
+    color: #068577;
 `
 export const Footer = styled.View `
     flex: 1;
     margin-horizontal: 16px;
+    min-height: 50px;
 `
 export const Separator = styled.View `
     flex: 1;
@@ -105,6 +102,7 @@ export const LoginAlternatives = styled.View `
 `
 export const Google = styled.TouchableOpacity `
     flex: 1;
+    max-height: 70px;
     border:  1px solid #989898;
     margin-right: 10px;
     border-radius: 8px;
@@ -115,7 +113,7 @@ export const Google = styled.TouchableOpacity `
 export const LogoGoogle = styled.Image `
     height: 50%;
     resize-mode: contain;
-    margin-right: 8px;margin-right: 8px;
+    margin-right: 8px;
 `
 export const TitleGoogle = styled.Text `
     font-family: Ubuntu;
@@ -124,6 +122,7 @@ export const TitleGoogle = styled.Text `
 `
 export const Microsoft = styled.TouchableOpacity `
     flex: 1;
+    max-height: 70px;
     border:  1px solid #989898;
     margin-left: 10px;
     border-radius: 8px;
