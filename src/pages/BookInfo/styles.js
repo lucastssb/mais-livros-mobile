@@ -72,7 +72,7 @@ export const IsAvailable = styled.Text`
     font-weight: bold;
 `;
 export const BookDescription = styled.View`
-    max-height: 400px;
+    max-height: 800px;
     padding: 15px;
 `;
 export const Description = styled.Text`
@@ -88,7 +88,7 @@ export const TextVideo = styled.Text`
     padding: 15px;
 `;
 export const Comments = styled.View`
-    height: 200px;
+    height: 270px;
     margin-vertical: 50px;
 `;
 export const CommentsTitle = styled.Text`

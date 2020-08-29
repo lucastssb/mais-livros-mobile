@@ -34,7 +34,7 @@ export const ProfilePicArea = styled.View `
 export const ProfilePic = styled.Image`
     height: 100%;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 50px;
 `;
 export const UserStatus = styled.View `
     flex: 1;
@@ -49,8 +49,7 @@ export const UserName = styled.Text `
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    margin-vertical: 15px;
-
+    margin-vertical: 10px;
 `;
 export const Footer = styled.View `
     flex: 1;
@@ -59,6 +58,28 @@ export const FooterTitle = styled.Text `
     font-size: 20px;
     font-weight: bold;
 `;
+export const Interests = styled.View `
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+`;
+export const InterestItem = styled.View `
+    padding: 15px;
+    background-color: #ccc;
+    margin: 10px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    elevation: 5;
+
+`;
+export const TitleInterest = styled.Text `
+    font-size: 15px;
+    font-weight: bold;
+`;
+
+
 
 
 

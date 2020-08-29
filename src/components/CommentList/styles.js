@@ -4,24 +4,24 @@ export const Container = styled.View`
     flex: 1;
 `;
 export const CommentBox = styled.View`
-    flex: 1;
     width: 300px;
+    height: 150px;
     flex-direction: row;
-    margin-horizontal: 5px;
-    background-color: #45D0C1;
-    elevation: 10;
+    background-color: #C4C4C4;
+    elevation: 5;
+    padding: 15px;
+    margin: 20px;
 `;
 export const UserPic = styled.Image`
     height: 50px;
     width: 50px;
-    align-self: center;
-    border-radius: 100px;
+    border-radius: 12px;
     margin-right: 5px;
 `;
 export const CommentData = styled.View`
     flex: 1;
-    padding: 15px;
     background-color: #C4C4C4;
+    padding-left: 5px;
 `;
 export const UserName = styled.Text`
     font-size: 20px;

@@ -15,15 +15,9 @@ export const SearchBar = styled.View `
     font-size: 19px;
     border-radius: 4px;
     flex-direction: row;
-    border-top-right-radius: 25px;
 `;
 export const SearchButton = styled.TouchableOpacity `
     width: 15%;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-color: #45D0C1;
-    border-width: 2px;
     justify-content: center;
     align-items: center;
 `;

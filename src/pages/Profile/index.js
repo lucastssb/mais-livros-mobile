@@ -14,8 +14,29 @@ import {
      Footer,
      StatusText,
      FooterTitle,
+     Interests,
+     InterestItem,
+     TitleInterest
      
 } from './styles';
+
+const DATA = [
+    {
+      title: 'Romance',
+    },
+    {
+      title: 'Ficção',
+    },
+    {
+      title: 'Conto de fadas',
+    },
+    {
+      title: 'Fantasia',
+    },
+    {
+      title: 'Terror',
+    },
+  ];
 
 const Profile = () => {
   return(
@@ -38,6 +59,15 @@ const Profile = () => {
         </Header>
         <Footer>
             <FooterTitle>Interesses</FooterTitle>
+            <Interests>
+                {DATA.map(item => {
+                    return(
+                        <InterestItem key={item.title}>
+                            <TitleInterest>{item.title}</TitleInterest>
+                        </InterestItem>
+                    );
+                })}
+            </Interests>
         </Footer>
 
 

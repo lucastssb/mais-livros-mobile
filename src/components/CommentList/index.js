@@ -18,7 +18,7 @@ const DATA = [
     },
     {
       id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-      title: 'Gostem muito, vou ler novamente!',
+      title: 'Gostei muito, vou ler novamente!',
       userName: 'Pedro'
     },
     {
