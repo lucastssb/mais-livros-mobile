@@ -4,6 +4,9 @@ export const Container = styled.ScrollView`
     flex: 1;
     padding: 20px;
 `;
+export const StatusBar = styled.StatusBar `
+
+`
 export const Header = styled.View `
     flex: 1;
     height: 250px;

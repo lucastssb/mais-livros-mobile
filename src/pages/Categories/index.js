@@ -11,7 +11,7 @@ import { Container, Footer, StatusBar } from './styles';
 const Categories = () => {
   return (
     <Container>
-        <StatusBar backgroundColor='#45D0C1' barStyle='light-content' />
+        <StatusBar backgroundColor='#45D0C1' translucent={true}/>
         <Books3
           data={Artes}/>
         <Footer/>

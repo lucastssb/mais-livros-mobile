@@ -3,6 +3,7 @@ import Icon from 'react-native-vector-icons/AntDesign';
 
 import {
      Container,
+     StatusBar,
      Header,
      TopBar,
      PageTitle,
@@ -41,6 +42,7 @@ const DATA = [
 const Profile = () => {
   return(
     <Container>
+    <StatusBar backgroundColor='#45D0C1'/>
         <Header>
             <TopBar>
                 <PageTitle>Perfil</PageTitle>

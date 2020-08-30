@@ -11,12 +11,13 @@ export const Category = styled.Text `
     font-weight: bold;
 `
 export const Book = styled.TouchableOpacity`
-    elevation: 10;
+    elevation: 5;
     height: 200px;
     width:140px;
-    margin-horizontal: 5px;
+    margin: 10px 5px;
     border-radius: 4px;
-`
+    background-color: white;
+`;
 export const Thumbnail = styled.Image`
     height: 100%;
     width:100%;

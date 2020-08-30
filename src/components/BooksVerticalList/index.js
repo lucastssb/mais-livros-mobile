@@ -1,7 +1,11 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 
-import { Container, Thumbnail, Book } from './styles';
+import { 
+  Container, 
+  Thumbnail, 
+  Book 
+} from './styles';
 
 const BooksVerticalList = (props) => {
   const navigation = useNavigation();
@@ -20,7 +24,7 @@ const BooksVerticalList = (props) => {
                   rating: item.rating || null,
                   videoId: item.video_link || null,
                 })}>
-                    <Thumbnail source={{uri: item.image}}/>
+                    <Thumbnail source={{uri: item.image}} />
                 </Book>
             );
         })}
