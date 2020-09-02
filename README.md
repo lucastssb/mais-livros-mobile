@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -21,5 +21,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Mais livros é uma plataforma de leitura de livros feita para ser a solução para o desafio da Arvore da educação no Hackatoon da Shawee.
+O Mais livros é uma plataforma de leitura de livros feita para ser a solução do desafio da Arvore da educação no Hackathon da Shawee.
 
