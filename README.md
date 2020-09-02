@@ -1,18 +1,17 @@
 <h1 align="center">
-    <img alt="Mais Livros" title="Ecoleta" src=".github/plusLivros.svg" width="220px" />
+    <img alt="Mais Livros" title="Mais Livros" src=".github/plusLivros.png" width="220px" />
 </h1>
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 
 <br>
 
 <p align="center">
-  <img alt="App screen" src=".github/screen.png" width="100%">
+  <img alt="App screen" src=".github/screen.png" width="300px">
 </p>
 
 ## 🚀 Tecnologias
