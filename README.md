@@ -1,5 +1,5 @@
-<h1 align="center">
-    <img alt="Mais Livros" title="Mais Livros" src=".github/plusLivros.png" width="220px" />
+<h1 align="left">
+    <img alt="Mais Livros" title="Mais Livros" src=".github/plusLivros.png" width="190px" />
 </h1>
 
 <p align="center">
